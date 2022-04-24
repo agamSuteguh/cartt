@@ -1,8 +1,7 @@
 <template>
-
  <div class="pay">  
 <hr>
-<br>
+
 
 
 <a >TOTAL</a>
@@ -94,7 +93,7 @@ hr {
     overflow: hidden;
     text-align: left;
     width: 200px;
-    eight: 10px; 
+    eight: 5px; 
     position: absolute;
 }
 
