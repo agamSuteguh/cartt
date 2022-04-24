@@ -27,7 +27,7 @@ export default {
     res: function () {
       alert('transaksi anda berhasil di proses')
     
-    }}https://github.com/agamSuteguh/cartt/blob/main/src/components/payment.vue
+    }}
 }
    
       
