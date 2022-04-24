@@ -27,7 +27,7 @@ export default {
     res: function () {
       alert('transaksi anda berhasil di proses')
     
-    }}
+    }}https://github.com/agamSuteguh/cartt/blob/main/src/components/payment.vue
 }
    
       
@@ -72,6 +72,7 @@ hr {
     text-align: left;
     height: 20px;
     width: 500px;
+    position: absolute;
     
 }
 @media screen and (max-width: 677px){
@@ -81,7 +82,7 @@ hr {
     font-size: 7px;
 }
 .pay button{
-  margin-top: 10px;
+ margin-top: 10px;
 margin-left: 125px;
 background: #c01444;
 font-size: 5px;
