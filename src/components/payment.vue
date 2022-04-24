@@ -3,8 +3,8 @@
  <div class="pay">  
 <hr>
 <br>
-<br>
-<br>
+
+
 <a >TOTAL</a>
 <br>
   <a v-for="item in items" :key="item.wish+item.harga">Rp.{{(  item.wish*item.harga )}}</a> <button v-on:click="res">Bayar</button> 
@@ -93,8 +93,8 @@ hr {
     background-color: #f0ecec;
     overflow: hidden;
     text-align: left;
-     width: 200px;
-	height: 10px; 
+    width: 200px;
+    eight: 10px; 
     position: absolute;
 }
 
