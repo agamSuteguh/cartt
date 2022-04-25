@@ -71,6 +71,7 @@ hr {
     text-align: left;
     height: 20px;
     width: 500px;
+    position: absolute;
 }
 @media screen and (max-width: 677px){
   
