@@ -55,10 +55,10 @@ position: absolute;
 hr {
   border: none;
     background-color: #f0ecec;
-    overflow: visible;
+    overflow: hidden;
     text-align: left;
     height: 20px;
-    width: 500px;
+    width: 300px;
     position: absolute;
  
 }
@@ -90,7 +90,7 @@ hr {
     background-color: #f0ecec;
     overflow: hidden;
     text-align: left;
-    width: 200px;
+    width: 300px;
     eight: 5px; 
     position: absolute;
 }
