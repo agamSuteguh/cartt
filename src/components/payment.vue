@@ -102,8 +102,8 @@ hr {
     background-color: #f0ecec;
     overflow: hidden;
     text-align: left;
-    height: 10px;
-    width: 300px;
+     width: 200px;
+	height: 17px; 
     position: absolute;
 }
 
