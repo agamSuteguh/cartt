@@ -19,6 +19,8 @@ export default {
 
 
 <style scoped>
+
+
 .topnav {
   background-color: #c01444;
   overflow: hidden;
@@ -36,5 +38,22 @@ export default {
 }
 
 
+@media screen and (max-width: 677px) {
 
+.topnav {
+  background-color: #c01444;
+  overflow: hidden;
+  width: 200px;
+	height: 17px; 
+  text-align: center;
+  padding-top: 3px;
+}
+
+.topnav a {
+  color: #f2f2f2;
+ text-align: center;
+  font-size: 7px;
+  margin-bottom: 50%;
+}
+}
 </style>

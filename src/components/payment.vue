@@ -1,12 +1,13 @@
 <template>
+
  <div class="pay">  
-<p>.</p>
+<hr>
 <a >TOTAL</a>
 <br>
-  <a v-for="item in items" :key="item.wish+item.harga">Rp.{{(  item.wish*item.harga )}}</a>
-   <button v-on:click="res">Bayar</button>
-
+  <a v-for="item in items" :key="item.wish+item.harga">Rp.{{(  item.wish*item.harga )}}</a> <button v-on:click="res">Bayar</button> 
+  
 </div>
+
 
 
 </template>
@@ -42,27 +43,67 @@ export default {
 
 </script>
 <style scoped>
-.pay p {
-    color: #f0ecec ;
-    background-color:#f0ecec ;
-    margin-right: 8.5%;
-}
+
 .pay a{
+  
     font-size: 18px;
 }
 .pay button{
-margin-left: 325px;
+margin-left: 350px;
 background: #c01444;
 border: none;
 padding: 10px 20px;
 color: white;
 border-radius: 10px;
+position: absolute;
 
 }
 .pay button:active{
   outline-style: solid;
   outline-color: rgb(209, 242, 255);
 
+
+}
+hr {
+  border: none;
+    background-color: #f0ecec;
+    overflow: visible;
+    text-align: left;
+    height: 20px;
+    width: 500px;
+}
+@media screen and (max-width: 677px){
+  
+
+.pay a{
+    font-size: 7px;
+}
+.pay button{
+  margin-top: 10px;
+margin-left: 125px;
+background: #c01444;
+font-size: 5px;
+padding: 4px 5px;
+color: white;
+border-radius: 5px;
+position: absolute;
+
+}
+.pay button:active{
+  outline-style: solid;
+  outline-color: rgb(209, 242, 255);
+
+
+}
+hr {
+  border: none;
+    background-color: #f0ecec;
+    overflow: visible;
+    text-align: left;
+    height: 10px;
+    width: 200px;
+    position: absolute;
+}
 
 }
 
