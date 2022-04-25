@@ -44,7 +44,7 @@ export default {
   background-color: #c01444;
   overflow: hidden;
   width: 100%;
-	height: 17px; 
+	height: 35px; 
   text-align: center;
   padding-top: 3px;
 }
@@ -52,7 +52,7 @@ export default {
 .topnav a {
   color: #f2f2f2;
  text-align: center;
-  font-size: 7px;
+  font-size: 16px;
   margin-bottom: 50%;
 }
 }
