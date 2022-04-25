@@ -47,9 +47,6 @@ export default {
   text-align: center;
   background-color: #f8f9fabc;
   border: none;
- 
-
-  
 }
 .buton button:hover {
   background-color: #ececec;
@@ -60,7 +57,19 @@ export default {
   padding: 10px 100px;
   background-color: #ececec;
    border: 1px solid #ccd4dc  ;
-  border-radius: 10px;
+  border-radius: 5px;
+}
+.buton a:active{
+    border: 1px solid #94b4fc;
+    outline-color: #c4dcfc;
+    outline-style: solid;
+    
+}
+.buton button:active{
+    border: 1px solid #7a8484;
+    outline-color: #d4d4dc;
+    outline-style: solid;
+    
 }
 .buton container{
   padding: 101px ;
@@ -72,15 +81,13 @@ background-color: gray;
 
 }
 .buton button{
- padding: 3px 5px;
-  font-size: 7px;
+ padding: 10px 20px;
+  font-size: 16px;
   text-align: center;
   background-color: #f8f9fabc;
   border: none;
   
- 
 
-  
 }
 .buton button:hover {
   background-color: #ececec;
@@ -88,18 +95,32 @@ background-color: gray;
   }
 
 .buton a{
-  padding: 4px 40px;
+ padding: 16px 100px;
+  font-size: 16px;
   background-color: #ececec;
    border: 1px solid #ccd4dc  ;
   border-radius: 10px;
-  font-size: 7px;
+    overflow: hidden;
 }
 .buton container{
   padding: 11px ;
 background-color: gray;
 }
 .buton p{
-  font-size: 7px;
+  font-size: 16px;
+      overflow: hidden;
+}
+.buton a:active{
+    border: 1px solid #94b4fc;
+    outline-color: #c4dcfc;
+    outline-style: solid;
+    
+}
+.buton button:active{
+    border: 1px solid #7a8484;
+    outline-color: #d4d4dc;
+    outline-style: solid;
+    
 }
 }
 
