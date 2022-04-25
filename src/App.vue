@@ -38,6 +38,7 @@ margin-right: 30%;
   -moz-osx-font-smoothing: grayscale;
 margin-left: 0%;
 margin-right: 0%;
+margin-top:10%;
 }
 
 }
