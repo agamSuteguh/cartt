@@ -70,6 +70,8 @@ hr {
 }
 .pay button{
   margin-top: 10px;
+  margin-left: 85%;
+margin-right:15%;
 
 background: #c01444;
 font-size: 5px;
