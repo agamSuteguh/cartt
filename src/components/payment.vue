@@ -57,8 +57,8 @@ hr {
     background-color: #f0ecec;
     overflow: hidden;
     text-align: left;
-    height: 20px;
-    width: 300px;
+    height: 10px;
+    width: 500px;
     position: absolute;
  
 }
@@ -90,8 +90,8 @@ hr {
     background-color: #f0ecec;
     overflow: hidden;
     text-align: left;
-    width: 300px;
-    eight: 5px; 
+    width: 200px;
+    height: 5px; 
     position: absolute;
 }
 
