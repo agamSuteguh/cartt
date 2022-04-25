@@ -103,7 +103,7 @@ hr {
     overflow: hidden;
     text-align: left;
      width: 200px;
-	height: 17px; 
+	height: 10px; 
     position: absolute;
 }
 
