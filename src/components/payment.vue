@@ -73,10 +73,9 @@ hr {
    
 }
 .pay button{
-overflow: hidden;
 margin-top: 10px;
-margin-left: 70%;
-margin-right:30%;
+margin-left: 40%;
+margin-right:60%;
 background: #c01444;
 font-size: 16px;
 padding: 15px 16px;
