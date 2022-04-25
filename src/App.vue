@@ -36,7 +36,7 @@ margin-right: 30%;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-margin-left: 20%;
+margin-left: 30%;
 margin-right: 30%;
 }
 
