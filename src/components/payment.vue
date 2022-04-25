@@ -2,6 +2,7 @@
 
  <div class="pay">  
 <hr>
+<br>
 <a >TOTAL</a>
 <br>
   <a v-for="item in items" :key="item.wish+item.harga">Rp.{{(  item.wish*item.harga )}}</a> <button v-on:click="res">Bayar</button> 
@@ -45,8 +46,8 @@ export default {
 <style scoped>
 
 .pay a{
-  
     font-size: 18px;
+
 }
 .pay button{
 margin-left: 350px;
@@ -71,7 +72,7 @@ hr {
     text-align: left;
     height: 20px;
     width: 500px;
-    position: absolute;
+    
 }
 @media screen and (max-width: 677px){
   
@@ -99,10 +100,10 @@ position: absolute;
 hr {
   border: none;
     background-color: #f0ecec;
-    overflow: visible;
+    overflow: hidden;
     text-align: left;
     height: 10px;
-    width: 200px;
+    width: 300px;
     position: absolute;
 }
 

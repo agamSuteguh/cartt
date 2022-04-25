@@ -4,7 +4,7 @@
          {{item.nama}}
     </p>
     <p v-for="item in items" :key="item.harga">
-         {{item.harga}}
+       Rp.{{item.harga}}
     </p>
 
   <button v-for="item in items" :key="item.wish" @click="item.wish--;" :disabled="item.wish == 0"> - </button>
