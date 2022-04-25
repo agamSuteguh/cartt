@@ -66,11 +66,11 @@ hr {
   
 
 .pay a{
-    font-size: 7px;
+    font-size: 1%;
 }
 .pay button{
   margin-top: 10px;
-margin-left: 125px;
+
 background: #c01444;
 font-size: 5px;
 padding: 4px 5px;
@@ -90,7 +90,7 @@ hr {
     background-color: #f0ecec;
     overflow: hidden;
     text-align: left;
-    width: 200px;
+    width: 100%;
     height: 5px; 
     position: absolute;
 }
